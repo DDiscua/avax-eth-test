@@ -7,8 +7,12 @@
   "directories": {
     "test": "tests"
   },
+  "engines": {
+    "node": ">=16.0.0"
+  },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha **/*.test.js && mocha --reporter json > reports/test-results.json",
+		"report": "mocha --reporter mochawesome"
   },
   "repository": {
     "type": "git",

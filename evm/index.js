@@ -1,0 +1,1 @@
+export { eth_getBlockByHash } from './eth_getBlockByHash.js'

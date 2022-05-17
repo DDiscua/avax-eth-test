@@ -1,0 +1,37 @@
+{
+  "name": "avax-eth-test",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "NodeJS test for custom blockchain in Avax",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DDiscua/avax-eth-test.git"
+  },
+  "keywords": [
+    "test",
+    "blockchain"
+  ],
+  "author": "David Discua",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DDiscua/avax-eth-test/issues"
+  },
+  "homepage": "https://github.com/DDiscua/avax-eth-test#readme",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0",
+    "supertest": "^6.2.3"
+  },
+  "dependencies": {
+    "avalanche": "^3.14.0",
+    "axios": "^0.27.2",
+    "axios-middleware": "^0.3.1"
+  }
+}

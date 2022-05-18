@@ -1,4 +1,5 @@
 import { eth_sendRawTransaction, eth_signTransaction } from '../evm/index.js';
+import { sendAvax } from "../utils.js";
 import { config, baseURL } from '../middleware.js';
 import chai from 'chai';
 import Web3 from 'web3';
@@ -21,25 +22,15 @@ describe.skip('eth_sendRawTransaction', async function () {
         const hexValue = value.toString(16)
         const signTransaction = eth_signTransaction(account, toAccount, hexValue).then(res => { return res });;
         web3.eth.getBlockNumber().then((result) => {
-            console.log("Latest Ethereum Block is ", result);
+            //   console.log("Latest Ethereum Block is ", result);
             //console.log("ACCOUNTS: ", web3.eth.accounts.create());
         }).catch(err => {
             console.log(err);
         });
-        const tx = {
-            from: account,
-            to: toAccount,
-            gas: 20000,
-            gasPrice: 14500000000,
-            value: value,
-            nonce: 0
-        };
-        const signPromise = web3.eth.signTransaction(tx, '56289e99c94b6912bfc12adc093c9b51124f0dc54ac7a766b2bc5ccf558d8027');
-        signPromise.then((signedTx) => {
-            console.log("SIGN", signedTx);
-        }).catch((err) => {
-            console.error("FAILED TO SIGN transaction: ", err);
-        })
+        // setting max fee as 100 and priority fee as 2
+        const result = await sendAvax("0.001", config.seedAccount, 1, 1);
+        expect((result).txHash).to.not.equal(null);
+        expect(result.nonce).to.not.equal(null);
 
     });
 });

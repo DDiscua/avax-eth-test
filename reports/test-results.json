@@ -1,0 +1,287 @@
+chainID:  0xdbd98
+transactions count:  0x16
+{
+  "stats": {
+    "suites": 8,
+    "tests": 15,
+    "passes": 14,
+    "pending": 1,
+    "failures": 0,
+    "start": "2022-05-18T17:16:07.896Z",
+    "end": "2022-05-18T17:16:09.644Z",
+    "duration": 1748
+  },
+  "tests": [
+    {
+      "title": "respond with valid HTTP status code and block Hash",
+      "fullTitle": "eth_getBlockByHash respond with valid HTTP status code and block Hash",
+      "file": "/Users/ddiscua/Desktop/FiWork/Repos/avax-eth-test/test/eth_getBlockByHash.test.js",
+      "duration": 128,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "respond with valid HTTP status code and chainID from blockChain",
+      "fullTitle": "eth_getChainId respond with valid HTTP status code and chainID from blockChain",
+      "file": "/Users/ddiscua/Desktop/FiWork/Repos/avax-eth-test/test/eth_getChainId.test.js",
+      "duration": 125,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "respond with valid HTTP status code and seed account transaction count should be greather than 0",
+      "fullTitle": "eth_getTransactionCount respond with valid HTTP status code and seed account transaction count should be greather than 0",
+      "file": "/Users/ddiscua/Desktop/FiWork/Repos/avax-eth-test/test/eth_getTransactionCount.test.js",
+      "duration": 125,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "send a transaction from seedAccount to another account",
+      "fullTitle": "eth_sendRawTransaction send a transaction from seedAccount to another account",
+      "file": "/Users/ddiscua/Desktop/FiWork/Repos/avax-eth-test/test/eth_sendRawTransaction.test.js",
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "gets nodeID",
+      "fullTitle": "p_blockChain: test blockchain healthy gets nodeID",
+      "file": "/Users/ddiscua/Desktop/FiWork/Repos/avax-eth-test/test/p_blockChain.test.js",
+      "duration": 125,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "verify if blockchain exists",
+      "fullTitle": "p_blockChain: test blockchain healthy verify if blockchain exists",
+      "file": "/Users/ddiscua/Desktop/FiWork/Repos/avax-eth-test/test/p_blockChain.test.js",
+      "duration": 125,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "verify if blockchain is being validated",
+      "fullTitle": "p_blockChain: test blockchain healthy verify if blockchain is being validated",
+      "file": "/Users/ddiscua/Desktop/FiWork/Repos/avax-eth-test/test/p_blockChain.test.js",
+      "duration": 125,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "verify if subnetID is validating the blockchain",
+      "fullTitle": "p_blockChain: test blockchain healthy verify if subnetID is validating the blockchain",
+      "file": "/Users/ddiscua/Desktop/FiWork/Repos/avax-eth-test/test/p_blockChain.test.js",
+      "duration": 118,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "verify if node is validating current blockchain",
+      "fullTitle": "p_blockChain: test blockchain healthy verify if node is validating current blockchain",
+      "file": "/Users/ddiscua/Desktop/FiWork/Repos/avax-eth-test/test/p_blockChain.test.js",
+      "duration": 126,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "verify blockchain status , it should be validating",
+      "fullTitle": "p_blockChain: test blockchain healthy verify blockchain status , it should be validating",
+      "file": "/Users/ddiscua/Desktop/FiWork/Repos/avax-eth-test/test/p_blockChain.test.js",
+      "duration": 127,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "respond with valid HTTP status code and verify if blockchain exists",
+      "fullTitle": "p_getBlockChains respond with valid HTTP status code and verify if blockchain exists",
+      "file": "/Users/ddiscua/Desktop/FiWork/Repos/avax-eth-test/test/p_getBlockChains.test.js",
+      "duration": 121,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "respond with valid HTTP status code and verify network name is correct",
+      "fullTitle": "getNetworkName respond with valid HTTP status code and verify network name is correct",
+      "file": "/Users/ddiscua/Desktop/FiWork/Repos/avax-eth-test/test/p_getNetworkName.test.js",
+      "duration": 124,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "respond with valid HTTP status code and verify is C chain is bootstraped",
+      "fullTitle": "isBootstrapped respond with valid HTTP status code and verify is C chain is bootstraped",
+      "file": "/Users/ddiscua/Desktop/FiWork/Repos/avax-eth-test/test/p_isBootstraped.test.js",
+      "duration": 125,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "respond with valid HTTP status code and verify is X chain is bootstraped",
+      "fullTitle": "isBootstrapped respond with valid HTTP status code and verify is X chain is bootstraped",
+      "file": "/Users/ddiscua/Desktop/FiWork/Repos/avax-eth-test/test/p_isBootstraped.test.js",
+      "duration": 125,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "respond with valid HTTP status code and verify is P chain is bootstraped",
+      "fullTitle": "isBootstrapped respond with valid HTTP status code and verify is P chain is bootstraped",
+      "file": "/Users/ddiscua/Desktop/FiWork/Repos/avax-eth-test/test/p_isBootstraped.test.js",
+      "duration": 126,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    }
+  ],
+  "pending": [
+    {
+      "title": "send a transaction from seedAccount to another account",
+      "fullTitle": "eth_sendRawTransaction send a transaction from seedAccount to another account",
+      "file": "/Users/ddiscua/Desktop/FiWork/Repos/avax-eth-test/test/eth_sendRawTransaction.test.js",
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "failures": [],
+  "passes": [
+    {
+      "title": "respond with valid HTTP status code and block Hash",
+      "fullTitle": "eth_getBlockByHash respond with valid HTTP status code and block Hash",
+      "file": "/Users/ddiscua/Desktop/FiWork/Repos/avax-eth-test/test/eth_getBlockByHash.test.js",
+      "duration": 128,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "respond with valid HTTP status code and chainID from blockChain",
+      "fullTitle": "eth_getChainId respond with valid HTTP status code and chainID from blockChain",
+      "file": "/Users/ddiscua/Desktop/FiWork/Repos/avax-eth-test/test/eth_getChainId.test.js",
+      "duration": 125,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "respond with valid HTTP status code and seed account transaction count should be greather than 0",
+      "fullTitle": "eth_getTransactionCount respond with valid HTTP status code and seed account transaction count should be greather than 0",
+      "file": "/Users/ddiscua/Desktop/FiWork/Repos/avax-eth-test/test/eth_getTransactionCount.test.js",
+      "duration": 125,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "gets nodeID",
+      "fullTitle": "p_blockChain: test blockchain healthy gets nodeID",
+      "file": "/Users/ddiscua/Desktop/FiWork/Repos/avax-eth-test/test/p_blockChain.test.js",
+      "duration": 125,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "verify if blockchain exists",
+      "fullTitle": "p_blockChain: test blockchain healthy verify if blockchain exists",
+      "file": "/Users/ddiscua/Desktop/FiWork/Repos/avax-eth-test/test/p_blockChain.test.js",
+      "duration": 125,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "verify if blockchain is being validated",
+      "fullTitle": "p_blockChain: test blockchain healthy verify if blockchain is being validated",
+      "file": "/Users/ddiscua/Desktop/FiWork/Repos/avax-eth-test/test/p_blockChain.test.js",
+      "duration": 125,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "verify if subnetID is validating the blockchain",
+      "fullTitle": "p_blockChain: test blockchain healthy verify if subnetID is validating the blockchain",
+      "file": "/Users/ddiscua/Desktop/FiWork/Repos/avax-eth-test/test/p_blockChain.test.js",
+      "duration": 118,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "verify if node is validating current blockchain",
+      "fullTitle": "p_blockChain: test blockchain healthy verify if node is validating current blockchain",
+      "file": "/Users/ddiscua/Desktop/FiWork/Repos/avax-eth-test/test/p_blockChain.test.js",
+      "duration": 126,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "verify blockchain status , it should be validating",
+      "fullTitle": "p_blockChain: test blockchain healthy verify blockchain status , it should be validating",
+      "file": "/Users/ddiscua/Desktop/FiWork/Repos/avax-eth-test/test/p_blockChain.test.js",
+      "duration": 127,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "respond with valid HTTP status code and verify if blockchain exists",
+      "fullTitle": "p_getBlockChains respond with valid HTTP status code and verify if blockchain exists",
+      "file": "/Users/ddiscua/Desktop/FiWork/Repos/avax-eth-test/test/p_getBlockChains.test.js",
+      "duration": 121,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "respond with valid HTTP status code and verify network name is correct",
+      "fullTitle": "getNetworkName respond with valid HTTP status code and verify network name is correct",
+      "file": "/Users/ddiscua/Desktop/FiWork/Repos/avax-eth-test/test/p_getNetworkName.test.js",
+      "duration": 124,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "respond with valid HTTP status code and verify is C chain is bootstraped",
+      "fullTitle": "isBootstrapped respond with valid HTTP status code and verify is C chain is bootstraped",
+      "file": "/Users/ddiscua/Desktop/FiWork/Repos/avax-eth-test/test/p_isBootstraped.test.js",
+      "duration": 125,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "respond with valid HTTP status code and verify is X chain is bootstraped",
+      "fullTitle": "isBootstrapped respond with valid HTTP status code and verify is X chain is bootstraped",
+      "file": "/Users/ddiscua/Desktop/FiWork/Repos/avax-eth-test/test/p_isBootstraped.test.js",
+      "duration": 125,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "respond with valid HTTP status code and verify is P chain is bootstraped",
+      "fullTitle": "isBootstrapped respond with valid HTTP status code and verify is P chain is bootstraped",
+      "file": "/Users/ddiscua/Desktop/FiWork/Repos/avax-eth-test/test/p_isBootstraped.test.js",
+      "duration": 126,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    }
+  ]
+}

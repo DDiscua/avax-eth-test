@@ -3,6 +3,7 @@ import { p_validatedBy } from '../platformVM/p_validatedBy.js';
 import { p_validates } from '../platformVM/p_validates.js';
 import { p_getCurrentValidators } from '../platformVM/p_getCurrentValidators.js';
 import { getNodeID } from '../platformVM/getNodeID.js';
+import { p_getBlockChainStatus } from '../platformVM/p_getBlockChainStatus.js';
 import { config } from '../middleware.js';
 import chai from 'chai';
 
@@ -52,5 +53,12 @@ describe('p_blockChain: test blockchain healthy', async function () {
         const nodeValitaor = validators.find(V => V.nodeID === nodeID);
         expect(response.status).to.equal(200);
         expect(nodeValitaor.nodeID).to.equal(nodeID);
+    });
+
+    it('verify blockchain status , it should be validating', async function () {
+        const response = await p_getBlockChainStatus(blockChainID).then(res => { return res });
+        const status = response.data.result.status;
+        expect(response.status).to.equal(200);
+        expect(status).to.equal(blockChainExpectedStatus);
     });
 });

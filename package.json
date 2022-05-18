@@ -12,7 +12,7 @@
   },
   "scripts": {
     "test": "mocha **/*.test.js && mocha --reporter json > reports/test-results.json",
-    "report": "mocha --reporter mochawesome"
+    "report": "mocha --reporter mochawesome && open mochawesome-report/mochawesome.html"
   },
   "repository": {
     "type": "git",
@@ -34,12 +34,14 @@
     "mochawesome": "^7.1.3",
     "mochawesome-merge": "^4.2.1",
     "mochawesome-report-generator": "^6.2.0",
+    "open": "^8.4.0",
     "supertest": "^6.2.3"
   },
   "dependencies": {
     "avalanche": "^3.14.0",
     "axios": "^0.27.2",
     "axios-middleware": "^0.3.1",
-    "dotenv": "^16.0.1"
+    "dotenv": "^16.0.1",
+    "web3": "^1.7.3"
   }
 }

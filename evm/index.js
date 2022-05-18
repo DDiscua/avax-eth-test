@@ -1,1 +1,5 @@
 export { eth_getBlockByHash } from './eth_getBlockByHash.js'
+export { eth_getChainId } from './eth_getChainId.js'
+export { eth_getTransactionCount } from './eth_getTransactionCount.js'
+export { eth_sendRawTransaction } from './eth_sendRawTransaction.js'
+export { eth_signTransaction } from './eth_signTransaction.js'

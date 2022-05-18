@@ -1,7 +1,7 @@
 # This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and run tests across different versions of node
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
 
-name: Node.js CI
+name: BlockChain Test
 
 on:
   push:
@@ -43,7 +43,7 @@ jobs:
         cache: 'npm'
     
     - name: Install supertest, mocha, chai
-      run: npm i -g -D supertest mocha chai mochawesome
+      run: npm i -g -D supertest mocha chai mochawesome mochawesome-merge mochawesome-report-generator open
     - run: npm ci
     - run: npm run build --if-present
     - run: npm test

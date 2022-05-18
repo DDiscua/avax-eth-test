@@ -12,7 +12,7 @@
   },
   "scripts": {
     "test": "mocha **/*.test.js && mocha --reporter json > reports/test-results.json",
-		"report": "mocha --reporter mochawesome"
+    "report": "mocha --reporter mochawesome"
   },
   "repository": {
     "type": "git",
@@ -36,6 +36,7 @@
   "dependencies": {
     "avalanche": "^3.14.0",
     "axios": "^0.27.2",
-    "axios-middleware": "^0.3.1"
+    "axios-middleware": "^0.3.1",
+    "dotenv": "^16.0.1"
   }
 }

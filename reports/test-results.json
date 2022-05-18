@@ -7,16 +7,16 @@ http://35.231.246.12:9650/ext/bc/ZhcK92AeusTViX14rfxaPFqTxU1x7noBe9zyPqAzovdAL6u
     "passes": 2,
     "pending": 0,
     "failures": 0,
-    "start": "2022-05-18T04:28:41.546Z",
-    "end": "2022-05-18T04:28:41.838Z",
-    "duration": 292
+    "start": "2022-05-18T04:32:19.560Z",
+    "end": "2022-05-18T04:32:19.865Z",
+    "duration": 305
   },
   "tests": [
     {
       "title": "respond with valid HTTP status code and block Hash",
       "fullTitle": "eth_getBlockByHash respond with valid HTTP status code and block Hash",
       "file": "/Users/ddiscua/Desktop/FiWork/Repos/avax-eth-test/test/eth_getBlockByHash.test.js",
-      "duration": 153,
+      "duration": 161,
       "currentRetry": 0,
       "speed": "slow",
       "err": {}
@@ -25,7 +25,7 @@ http://35.231.246.12:9650/ext/bc/ZhcK92AeusTViX14rfxaPFqTxU1x7noBe9zyPqAzovdAL6u
       "title": "respond with valid HTTP status code and chainID from blockChain",
       "fullTitle": "eth_getChainId respond with valid HTTP status code and chainID from blockChain",
       "file": "/Users/ddiscua/Desktop/FiWork/Repos/avax-eth-test/test/eth_getChainId.test.js",
-      "duration": 137,
+      "duration": 140,
       "currentRetry": 0,
       "speed": "slow",
       "err": {}
@@ -38,7 +38,7 @@ http://35.231.246.12:9650/ext/bc/ZhcK92AeusTViX14rfxaPFqTxU1x7noBe9zyPqAzovdAL6u
       "title": "respond with valid HTTP status code and block Hash",
       "fullTitle": "eth_getBlockByHash respond with valid HTTP status code and block Hash",
       "file": "/Users/ddiscua/Desktop/FiWork/Repos/avax-eth-test/test/eth_getBlockByHash.test.js",
-      "duration": 153,
+      "duration": 161,
       "currentRetry": 0,
       "speed": "slow",
       "err": {}
@@ -47,7 +47,7 @@ http://35.231.246.12:9650/ext/bc/ZhcK92AeusTViX14rfxaPFqTxU1x7noBe9zyPqAzovdAL6u
       "title": "respond with valid HTTP status code and chainID from blockChain",
       "fullTitle": "eth_getChainId respond with valid HTTP status code and chainID from blockChain",
       "file": "/Users/ddiscua/Desktop/FiWork/Repos/avax-eth-test/test/eth_getChainId.test.js",
-      "duration": 137,
+      "duration": 140,
       "currentRetry": 0,
       "speed": "slow",
       "err": {}
